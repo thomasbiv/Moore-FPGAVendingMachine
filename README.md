@@ -21,4 +21,27 @@ This is also a pure FSM, meaning that there is no arithmetic used in the calcula
 *Waveform 3: 45 cents*
 ![image](https://user-images.githubusercontent.com/75175761/159539575-f3160bfa-f154-4444-aea2-d8983f13dcb5.png)
 
+## FPGA Input/Output Mapping
+```
+# PlanAhead Generated physical constraints 
+#NET "SW<7>" CLOCK_DEDICATED_ROUTE = FALSE;
+##Clock Signal 100MHz
+	NET "CLK"	LOC=D11 ;
+
+##Switches
+	NET "SW[0]"	LOC= V5	; ## RESET		
+	NET "SW[1]"	LOC= U4	; ## SODA INPUT
+	NET "SW[2]"	LOC= V3	; ## DIET INPUT				
+
+## LEDs
+	NET "LED[0]"	LOC=W3	; ## GIVESODA OUTPUT	
+	NET "LED[1]"	LOC=Y4	; ## GIVEDIET OUTPUT
+	NET "LED[2]"	LOC=Y1	; ## CHANGE OUTPUT
+
+##Buttons
+	NET "BTN[1]"	LOC=D5	; ## QUARTER INPUT
+	NET "BTN[2]"	LOC=A3	; ## NICKEL INPUT
+	NET "BTN[3]"	LOC=AB9	; ## DIME INPUT
+  ```
+*I/O Map to physical ports present on FPGA*
 
