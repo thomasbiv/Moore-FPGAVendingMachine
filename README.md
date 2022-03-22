@@ -1,4 +1,4 @@
-# Moore-FPGAVendingMachine
+# Moore Model Vending Machine FSM
 *Moore model Verilog FSM created in the Xilinx ISE Design Suite* 
 
 **Contributors**
