@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Xilinx/CDA 4203L/Lab4/clock_divider_testbench_isim_beh.exe" -prj "C:/Xilinx/CDA 4203L/Lab4/clock_divider_testbench_beh.prj" "work.clock_divider_testbench" "work.glbl" 

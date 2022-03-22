@@ -1,0 +1,4 @@
+verilog work "FSM.v"
+verilog work "debouncer.v"
+verilog work "clock_divider.v"
+verilog work "lab_board.v"

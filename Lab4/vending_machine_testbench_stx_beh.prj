@@ -1,0 +1,6 @@
+verilog isim_temp "FSM.v"
+verilog isim_temp "../../../Users/patri/Documents/GitHub/CDA4203L-TeamLGSB/Lab 4/Sample divider and debouncer/debouncer.v"
+verilog isim_temp "../../../Users/patri/Documents/GitHub/CDA4203L-TeamLGSB/Lab 4/Sample divider and debouncer/clock_divider.v"
+verilog isim_temp "vending_machine.v"
+verilog isim_temp "vending_machine_testbench.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

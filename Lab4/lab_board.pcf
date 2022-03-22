@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Feb 23 20:18:56 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SW<1>" LOCATE = SITE "U4" LEVEL 1;
+COMP "SW<2>" LOCATE = SITE "V3" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "W3" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "Y4" LEVEL 1;
+COMP "BTN<1>" LOCATE = SITE "D5" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "Y1" LEVEL 1;
+COMP "BTN<2>" LOCATE = SITE "A3" LEVEL 1;
+COMP "BTN<3>" LOCATE = SITE "AB9" LEVEL 1;
+COMP "CLK" LOCATE = SITE "D11" LEVEL 1;
+COMP "SW<0>" LOCATE = SITE "V5" LEVEL 1;
+SCHEMATIC END;
+

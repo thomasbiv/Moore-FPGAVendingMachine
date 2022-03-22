@@ -1,0 +1,22 @@
+
+# PlanAhead Generated physical constraints 
+#NET "SW<7>" CLOCK_DEDICATED_ROUTE = FALSE;
+##Clock Signal 100MHz
+	NET "CLK"	LOC=D11 ;
+
+##Switches
+	NET "SW[0]"	LOC= V5	;		
+	NET "SW[1]"	LOC= U4	;		
+	NET "SW[2]"	LOC= V3	;	
+	#NET "SW[3]"	LOC= P4	;		
+	#NET "SW[4]"	LOC= R4	;		
+	#NET "SW[5]"	LOC= P6	;				
+
+## LEDs
+	NET "LED[0]"	LOC=W3	;		
+	NET "LED[1]"	LOC=Y4	;	
+	NET "LED[2]"	LOC=Y1	;		
+##Buttons
+	NET "BTN[1]"	LOC=D5	;
+	NET "BTN[2]"	LOC=A3	;
+	NET "BTN[3]"	LOC=AB9	;

@@ -1,0 +1,55 @@
+xst -intstyle ise -ifn "C:/Xilinx/CDA 4203L/Lab4/lab_board.xst" -ofn "C:/Xilinx/CDA 4203L/Lab4/lab_board.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/CDA 4203L/Lab4/lab_board.xst" -ofn "C:/Xilinx/CDA 4203L/Lab4/lab_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab_board.ngc" lab_board.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab_board.ngc" lab_board.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab_board.ngc" lab_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab_board_map.ncd lab_board.ngd lab_board.pcf 
+par -w -intstyle ise -ol high -mt off lab_board_map.ncd lab_board.ncd lab_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab_board.twx lab_board.ncd -o lab_board.twr lab_board.pcf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab_board.ut lab_board.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/CDA 4203L/Lab4/lab_board.xst" -ofn "C:/Xilinx/CDA 4203L/Lab4/lab_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab_board.ngc" lab_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab_board_map.ncd lab_board.ngd lab_board.pcf 
+par -w -intstyle ise -ol high -mt off lab_board_map.ncd lab_board.ncd lab_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab_board.twx lab_board.ncd -o lab_board.twr lab_board.pcf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab_board.ut lab_board.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/CDA 4203L/Lab4/lab_board.xst" -ofn "C:/Xilinx/CDA 4203L/Lab4/lab_board.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/CDA 4203L/Lab4/lab_board.xst" -ofn "C:/Xilinx/CDA 4203L/Lab4/lab_board.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/CDA 4203L/Lab4/lab_board.xst" -ofn "C:/Xilinx/CDA 4203L/Lab4/lab_board.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/CDA 4203L/Lab4/lab_board.xst" -ofn "C:/Xilinx/CDA 4203L/Lab4/lab_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab_board.ngc" lab_board.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab_board.ngc" lab_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab_board_map.ncd lab_board.ngd lab_board.pcf 
+par -w -intstyle ise -ol high -mt off lab_board_map.ncd lab_board.ncd lab_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab_board.twx lab_board.ncd -o lab_board.twr lab_board.pcf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab_board.ut lab_board.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/CDA 4203L/Lab4/lab_board.xst" -ofn "C:/Xilinx/CDA 4203L/Lab4/lab_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab_board.ngc" lab_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab_board_map.ncd lab_board.ngd lab_board.pcf 
+par -w -intstyle ise -ol high -mt off lab_board_map.ncd lab_board.ncd lab_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab_board.twx lab_board.ncd -o lab_board.twr lab_board.pcf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab_board.ut lab_board.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/CDA 4203L/Lab4/lab_board.xst" -ofn "C:/Xilinx/CDA 4203L/Lab4/lab_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab_board.ngc" lab_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab_board_map.ncd lab_board.ngd lab_board.pcf 
+par -w -intstyle ise -ol high -mt off lab_board_map.ncd lab_board.ncd lab_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab_board.twx lab_board.ncd -o lab_board.twr lab_board.pcf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab_board.ut lab_board.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/CDA 4203L/Lab4/lab_board.xst" -ofn "C:/Xilinx/CDA 4203L/Lab4/lab_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab_board.ngc" lab_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab_board_map.ncd lab_board.ngd lab_board.pcf 
+par -w -intstyle ise -ol high -mt off lab_board_map.ncd lab_board.ncd lab_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab_board.twx lab_board.ncd -o lab_board.twr lab_board.pcf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab_board.ut lab_board.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/CDA 4203L/Lab4/lab_board.xst" -ofn "C:/Xilinx/CDA 4203L/Lab4/lab_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab_board.ngc" lab_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab_board_map.ncd lab_board.ngd lab_board.pcf 
+par -w -intstyle ise -ol high -mt off lab_board_map.ncd lab_board.ncd lab_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab_board.twx lab_board.ncd -o lab_board.twr lab_board.pcf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab_board.ut lab_board.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/CDA 4203L/Lab4/lab_board.xst" -ofn "C:/Xilinx/CDA 4203L/Lab4/lab_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PIN_MAP.ucf -p xc6slx45-csg484-3 "lab_board.ngc" lab_board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o lab_board_map.ncd lab_board.ngd lab_board.pcf 
+par -w -intstyle ise -ol high -mt off lab_board_map.ncd lab_board.ncd lab_board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml lab_board.twx lab_board.ncd -o lab_board.twr lab_board.pcf -ucf PIN_MAP.ucf 
+bitgen -intstyle ise -f lab_board.ut lab_board.ncd 
